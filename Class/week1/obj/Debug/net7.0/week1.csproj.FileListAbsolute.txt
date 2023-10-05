@@ -1,0 +1,30 @@
+D:\DSPS\semester3\Programming Advanced\New folder\week1\bin\Debug\net7.0\week1.exe
+D:\DSPS\semester3\Programming Advanced\New folder\week1\bin\Debug\net7.0\week1.deps.json
+D:\DSPS\semester3\Programming Advanced\New folder\week1\bin\Debug\net7.0\week1.runtimeconfig.json
+D:\DSPS\semester3\Programming Advanced\New folder\week1\bin\Debug\net7.0\week1.dll
+D:\DSPS\semester3\Programming Advanced\New folder\week1\bin\Debug\net7.0\week1.pdb
+D:\DSPS\semester3\Programming Advanced\New folder\week1\obj\Debug\net7.0\week1.csproj.AssemblyReference.cache
+D:\DSPS\semester3\Programming Advanced\New folder\week1\obj\Debug\net7.0\week1.GeneratedMSBuildEditorConfig.editorconfig
+D:\DSPS\semester3\Programming Advanced\New folder\week1\obj\Debug\net7.0\week1.AssemblyInfoInputs.cache
+D:\DSPS\semester3\Programming Advanced\New folder\week1\obj\Debug\net7.0\week1.AssemblyInfo.cs
+D:\DSPS\semester3\Programming Advanced\New folder\week1\obj\Debug\net7.0\week1.csproj.CoreCompileInputs.cache
+D:\DSPS\semester3\Programming Advanced\New folder\week1\obj\Debug\net7.0\week1.dll
+D:\DSPS\semester3\Programming Advanced\New folder\week1\obj\Debug\net7.0\refint\week1.dll
+D:\DSPS\semester3\Programming Advanced\New folder\week1\obj\Debug\net7.0\week1.pdb
+D:\DSPS\semester3\Programming Advanced\New folder\week1\obj\Debug\net7.0\week1.genruntimeconfig.cache
+D:\DSPS\semester3\Programming Advanced\New folder\week1\obj\Debug\net7.0\ref\week1.dll
+D:\DSPS\semester3\Programming Advanced\Class\week1\bin\Debug\net7.0\week1.exe
+D:\DSPS\semester3\Programming Advanced\Class\week1\bin\Debug\net7.0\week1.deps.json
+D:\DSPS\semester3\Programming Advanced\Class\week1\bin\Debug\net7.0\week1.runtimeconfig.json
+D:\DSPS\semester3\Programming Advanced\Class\week1\bin\Debug\net7.0\week1.dll
+D:\DSPS\semester3\Programming Advanced\Class\week1\bin\Debug\net7.0\week1.pdb
+D:\DSPS\semester3\Programming Advanced\Class\week1\obj\Debug\net7.0\week1.csproj.AssemblyReference.cache
+D:\DSPS\semester3\Programming Advanced\Class\week1\obj\Debug\net7.0\week1.GeneratedMSBuildEditorConfig.editorconfig
+D:\DSPS\semester3\Programming Advanced\Class\week1\obj\Debug\net7.0\week1.AssemblyInfoInputs.cache
+D:\DSPS\semester3\Programming Advanced\Class\week1\obj\Debug\net7.0\week1.AssemblyInfo.cs
+D:\DSPS\semester3\Programming Advanced\Class\week1\obj\Debug\net7.0\week1.csproj.CoreCompileInputs.cache
+D:\DSPS\semester3\Programming Advanced\Class\week1\obj\Debug\net7.0\week1.dll
+D:\DSPS\semester3\Programming Advanced\Class\week1\obj\Debug\net7.0\refint\week1.dll
+D:\DSPS\semester3\Programming Advanced\Class\week1\obj\Debug\net7.0\week1.pdb
+D:\DSPS\semester3\Programming Advanced\Class\week1\obj\Debug\net7.0\week1.genruntimeconfig.cache
+D:\DSPS\semester3\Programming Advanced\Class\week1\obj\Debug\net7.0\ref\week1.dll

@@ -1,0 +1,15 @@
+D:\DSPS\semester3\Programming Advanced\Assignment\Duplicates\bin\Debug\net7.0\Duplicates.exe
+D:\DSPS\semester3\Programming Advanced\Assignment\Duplicates\bin\Debug\net7.0\Duplicates.deps.json
+D:\DSPS\semester3\Programming Advanced\Assignment\Duplicates\bin\Debug\net7.0\Duplicates.runtimeconfig.json
+D:\DSPS\semester3\Programming Advanced\Assignment\Duplicates\bin\Debug\net7.0\Duplicates.dll
+D:\DSPS\semester3\Programming Advanced\Assignment\Duplicates\bin\Debug\net7.0\Duplicates.pdb
+D:\DSPS\semester3\Programming Advanced\Assignment\Duplicates\obj\Debug\net7.0\Duplicates.csproj.AssemblyReference.cache
+D:\DSPS\semester3\Programming Advanced\Assignment\Duplicates\obj\Debug\net7.0\Duplicates.GeneratedMSBuildEditorConfig.editorconfig
+D:\DSPS\semester3\Programming Advanced\Assignment\Duplicates\obj\Debug\net7.0\Duplicates.AssemblyInfoInputs.cache
+D:\DSPS\semester3\Programming Advanced\Assignment\Duplicates\obj\Debug\net7.0\Duplicates.AssemblyInfo.cs
+D:\DSPS\semester3\Programming Advanced\Assignment\Duplicates\obj\Debug\net7.0\Duplicates.csproj.CoreCompileInputs.cache
+D:\DSPS\semester3\Programming Advanced\Assignment\Duplicates\obj\Debug\net7.0\Duplicates.dll
+D:\DSPS\semester3\Programming Advanced\Assignment\Duplicates\obj\Debug\net7.0\refint\Duplicates.dll
+D:\DSPS\semester3\Programming Advanced\Assignment\Duplicates\obj\Debug\net7.0\Duplicates.pdb
+D:\DSPS\semester3\Programming Advanced\Assignment\Duplicates\obj\Debug\net7.0\Duplicates.genruntimeconfig.cache
+D:\DSPS\semester3\Programming Advanced\Assignment\Duplicates\obj\Debug\net7.0\ref\Duplicates.dll
