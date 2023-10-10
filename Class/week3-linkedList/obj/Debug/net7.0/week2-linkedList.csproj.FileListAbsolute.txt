@@ -1,0 +1,15 @@
+D:\DSPS\semester3\Programming Advanced\Class\week2-linkedList\bin\Debug\net7.0\week2-linkedList.exe
+D:\DSPS\semester3\Programming Advanced\Class\week2-linkedList\bin\Debug\net7.0\week2-linkedList.deps.json
+D:\DSPS\semester3\Programming Advanced\Class\week2-linkedList\bin\Debug\net7.0\week2-linkedList.runtimeconfig.json
+D:\DSPS\semester3\Programming Advanced\Class\week2-linkedList\bin\Debug\net7.0\week2-linkedList.dll
+D:\DSPS\semester3\Programming Advanced\Class\week2-linkedList\bin\Debug\net7.0\week2-linkedList.pdb
+D:\DSPS\semester3\Programming Advanced\Class\week2-linkedList\obj\Debug\net7.0\week2-linkedList.csproj.AssemblyReference.cache
+D:\DSPS\semester3\Programming Advanced\Class\week2-linkedList\obj\Debug\net7.0\week2-linkedList.GeneratedMSBuildEditorConfig.editorconfig
+D:\DSPS\semester3\Programming Advanced\Class\week2-linkedList\obj\Debug\net7.0\week2-linkedList.AssemblyInfoInputs.cache
+D:\DSPS\semester3\Programming Advanced\Class\week2-linkedList\obj\Debug\net7.0\week2-linkedList.AssemblyInfo.cs
+D:\DSPS\semester3\Programming Advanced\Class\week2-linkedList\obj\Debug\net7.0\week2-linkedList.csproj.CoreCompileInputs.cache
+D:\DSPS\semester3\Programming Advanced\Class\week2-linkedList\obj\Debug\net7.0\week2-linkedList.dll
+D:\DSPS\semester3\Programming Advanced\Class\week2-linkedList\obj\Debug\net7.0\refint\week2-linkedList.dll
+D:\DSPS\semester3\Programming Advanced\Class\week2-linkedList\obj\Debug\net7.0\week2-linkedList.pdb
+D:\DSPS\semester3\Programming Advanced\Class\week2-linkedList\obj\Debug\net7.0\week2-linkedList.genruntimeconfig.cache
+D:\DSPS\semester3\Programming Advanced\Class\week2-linkedList\obj\Debug\net7.0\ref\week2-linkedList.dll
