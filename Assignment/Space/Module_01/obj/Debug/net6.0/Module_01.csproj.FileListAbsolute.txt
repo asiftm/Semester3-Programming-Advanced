@@ -1,0 +1,15 @@
+D:\DSPS\semester3\Programming Advanced\Assignment\Space\Module_01\bin\Debug\net6.0\Module_01.exe
+D:\DSPS\semester3\Programming Advanced\Assignment\Space\Module_01\bin\Debug\net6.0\Module_01.deps.json
+D:\DSPS\semester3\Programming Advanced\Assignment\Space\Module_01\bin\Debug\net6.0\Module_01.runtimeconfig.json
+D:\DSPS\semester3\Programming Advanced\Assignment\Space\Module_01\bin\Debug\net6.0\Module_01.dll
+D:\DSPS\semester3\Programming Advanced\Assignment\Space\Module_01\bin\Debug\net6.0\Module_01.pdb
+D:\DSPS\semester3\Programming Advanced\Assignment\Space\Module_01\obj\Debug\net6.0\Module_01.csproj.AssemblyReference.cache
+D:\DSPS\semester3\Programming Advanced\Assignment\Space\Module_01\obj\Debug\net6.0\Module_01.GeneratedMSBuildEditorConfig.editorconfig
+D:\DSPS\semester3\Programming Advanced\Assignment\Space\Module_01\obj\Debug\net6.0\Module_01.AssemblyInfoInputs.cache
+D:\DSPS\semester3\Programming Advanced\Assignment\Space\Module_01\obj\Debug\net6.0\Module_01.AssemblyInfo.cs
+D:\DSPS\semester3\Programming Advanced\Assignment\Space\Module_01\obj\Debug\net6.0\Module_01.csproj.CoreCompileInputs.cache
+D:\DSPS\semester3\Programming Advanced\Assignment\Space\Module_01\obj\Debug\net6.0\Module_01.dll
+D:\DSPS\semester3\Programming Advanced\Assignment\Space\Module_01\obj\Debug\net6.0\refint\Module_01.dll
+D:\DSPS\semester3\Programming Advanced\Assignment\Space\Module_01\obj\Debug\net6.0\Module_01.pdb
+D:\DSPS\semester3\Programming Advanced\Assignment\Space\Module_01\obj\Debug\net6.0\Module_01.genruntimeconfig.cache
+D:\DSPS\semester3\Programming Advanced\Assignment\Space\Module_01\obj\Debug\net6.0\ref\Module_01.dll

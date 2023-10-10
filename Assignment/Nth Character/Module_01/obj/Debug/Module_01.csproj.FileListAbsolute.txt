@@ -1,0 +1,6 @@
+D:\DSPS\semester3\Programming Advanced\Assignment\Nth Character\Module_01\bin\Debug\Module_01.exe
+D:\DSPS\semester3\Programming Advanced\Assignment\Nth Character\Module_01\bin\Debug\Module_01.pdb
+D:\DSPS\semester3\Programming Advanced\Assignment\Nth Character\Module_01\obj\Debug\Module_01.csproj.AssemblyReference.cache
+D:\DSPS\semester3\Programming Advanced\Assignment\Nth Character\Module_01\obj\Debug\Module_01.csproj.CoreCompileInputs.cache
+D:\DSPS\semester3\Programming Advanced\Assignment\Nth Character\Module_01\obj\Debug\Module_01.exe
+D:\DSPS\semester3\Programming Advanced\Assignment\Nth Character\Module_01\obj\Debug\Module_01.pdb
