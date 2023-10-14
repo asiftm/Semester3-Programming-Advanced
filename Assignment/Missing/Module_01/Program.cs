@@ -28,7 +28,7 @@ namespace Module_01
             }
         }
     }
-    class Assignment
+    public class Assignment
     {
         public string Missing(int[] array)
         {

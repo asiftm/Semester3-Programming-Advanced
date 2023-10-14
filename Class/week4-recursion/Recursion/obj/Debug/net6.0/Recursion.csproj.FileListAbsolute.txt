@@ -1,0 +1,17 @@
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\bin\Debug\net6.0\Recursion.exe
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\bin\Debug\net6.0\Recursion.deps.json
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\bin\Debug\net6.0\Recursion.runtimeconfig.json
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\bin\Debug\net6.0\Recursion.dll
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\bin\Debug\net6.0\Recursion.pdb
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\bin\Debug\net6.0\TM.ProgrammingAdvanced.dll
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\obj\Debug\net6.0\Recursion.csproj.AssemblyReference.cache
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\obj\Debug\net6.0\Recursion.GeneratedMSBuildEditorConfig.editorconfig
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\obj\Debug\net6.0\Recursion.AssemblyInfoInputs.cache
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\obj\Debug\net6.0\Recursion.AssemblyInfo.cs
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\obj\Debug\net6.0\Recursion.csproj.CoreCompileInputs.cache
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\obj\Debug\net6.0\Recursion.csproj.CopyComplete
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\obj\Debug\net6.0\Recursion.dll
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\obj\Debug\net6.0\refint\Recursion.dll
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\obj\Debug\net6.0\Recursion.pdb
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\obj\Debug\net6.0\Recursion.genruntimeconfig.cache
+D:\DSPS\semester3\Programming Advanced\Class\week4-recursion\Recursion\obj\Debug\net6.0\ref\Recursion.dll

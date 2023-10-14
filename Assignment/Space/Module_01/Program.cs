@@ -1,39 +1,25 @@
-﻿using System.Drawing;
-
-namespace Module_01
+﻿using System;
+using System.Collections.Generic;
+using Module_02;
+namespace Space
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            string input = Console.ReadLine();
-            while (input.Trim() != string.Empty)
+            string read;
+            string input = string.Empty;
+            
+            while ((read = Console.ReadLine()) != null)
             {
-                string messageArray = input.Replace("TS: ", "").Replace(", fragment: ", " ").Replace("\"", "");
-                Console.WriteLine(input);
+                if (string.IsNullOrEmpty(read))
+                {
+                    break;
+                }
+                input += read;
             }
-
-            //string input = Console.ReadLine();
-            //Assignment assignment = new Assignment();
-            //Console.WriteLine(assignment.Space(input));
-        }
-    }
-    public class Assignment
-    {
-        public string Space(string input)
-        {
-            string[] messageArray = input.Replace("TS: ", "").Replace(", fragment: ", " ").Replace("\"", " ").Split(' ');
-            Dictionary<int, string> dict = new Dictionary<int, string>();
-            foreach (string line in messageArray)
-            {
-                dict[int.Parse(line.Split(" ")[0])] = line.Split(" ")[1];
-            }
-            string output = string.Empty;
-            for (int i = 1; i <= dict.Count; i++)
-            {
-                output += dict[i].Trim() + " ";
-            }
-            return output;
+            Assignment assignment = new Assignment();
+            Console.WriteLine(assignment.Space(input.Trim()).Trim());
         }
     }
 }

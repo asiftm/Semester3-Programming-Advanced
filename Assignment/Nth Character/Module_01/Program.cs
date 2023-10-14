@@ -16,9 +16,9 @@ namespace Module_01
 
                 if (int.TryParse(input, out int targetIndex))
                 {
-                    FindText findText = new FindText();
+                    Assignment findText = new Assignment();
                     string fileName = "words.txt";
-                    Console.WriteLine(findText.FindCharacter(fileName, targetIndex));
+                    Console.WriteLine(findText.NthCharacter(fileName, targetIndex));
                 }
                 else
                 {
@@ -31,9 +31,9 @@ namespace Module_01
             }
         }
     }
-    public class FindText
+    public class Assignment
     {
-        public string FindCharacter(string fileName, int index)
+        public string NthCharacter(string fileName, int index)
         {
             try
             {   

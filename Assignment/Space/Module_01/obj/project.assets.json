@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DSPS\\semester3\\Programming Advanced\\Assignment\\Space\\Module_01\\Module_01.csproj",
-      "projectName": "Module_01",
-      "projectPath": "D:\\DSPS\\semester3\\Programming Advanced\\Assignment\\Space\\Module_01\\Module_01.csproj",
+      "projectUniqueName": "D:\\DSPS\\semester3\\Programming Advanced\\Assignment\\Space\\Module_01\\Module_02.csproj",
+      "projectName": "Module_02",
+      "projectPath": "D:\\DSPS\\semester3\\Programming Advanced\\Assignment\\Space\\Module_01\\Module_02.csproj",
       "packagesPath": "C:\\Users\\asifm\\.nuget\\packages\\",
       "outputPath": "D:\\DSPS\\semester3\\Programming Advanced\\Assignment\\Space\\Module_01\\obj\\",
       "projectStyle": "PackageReference",
