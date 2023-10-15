@@ -1,0 +1,15 @@
+D:\DSPS\semester3\Programming Advanced\PracticeSorting\bin\Debug\net6.0\PracticeSorting.exe
+D:\DSPS\semester3\Programming Advanced\PracticeSorting\bin\Debug\net6.0\PracticeSorting.deps.json
+D:\DSPS\semester3\Programming Advanced\PracticeSorting\bin\Debug\net6.0\PracticeSorting.runtimeconfig.json
+D:\DSPS\semester3\Programming Advanced\PracticeSorting\bin\Debug\net6.0\PracticeSorting.dll
+D:\DSPS\semester3\Programming Advanced\PracticeSorting\bin\Debug\net6.0\PracticeSorting.pdb
+D:\DSPS\semester3\Programming Advanced\PracticeSorting\obj\Debug\net6.0\PracticeSorting.csproj.AssemblyReference.cache
+D:\DSPS\semester3\Programming Advanced\PracticeSorting\obj\Debug\net6.0\PracticeSorting.GeneratedMSBuildEditorConfig.editorconfig
+D:\DSPS\semester3\Programming Advanced\PracticeSorting\obj\Debug\net6.0\PracticeSorting.AssemblyInfoInputs.cache
+D:\DSPS\semester3\Programming Advanced\PracticeSorting\obj\Debug\net6.0\PracticeSorting.AssemblyInfo.cs
+D:\DSPS\semester3\Programming Advanced\PracticeSorting\obj\Debug\net6.0\PracticeSorting.csproj.CoreCompileInputs.cache
+D:\DSPS\semester3\Programming Advanced\PracticeSorting\obj\Debug\net6.0\PracticeSorting.dll
+D:\DSPS\semester3\Programming Advanced\PracticeSorting\obj\Debug\net6.0\refint\PracticeSorting.dll
+D:\DSPS\semester3\Programming Advanced\PracticeSorting\obj\Debug\net6.0\PracticeSorting.pdb
+D:\DSPS\semester3\Programming Advanced\PracticeSorting\obj\Debug\net6.0\PracticeSorting.genruntimeconfig.cache
+D:\DSPS\semester3\Programming Advanced\PracticeSorting\obj\Debug\net6.0\ref\PracticeSorting.dll
