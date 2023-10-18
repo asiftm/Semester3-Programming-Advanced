@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PracticeRecursion
+namespace Module_03
 {
-    internal class Minimum
+    internal class Playlist
     {
-        public void GetMin()
-        {
-            
-        }
     }
 }
