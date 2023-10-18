@@ -1,0 +1,15 @@
+D:\DSPS\semester3\Programming Advanced\PracticeRecursion\bin\Debug\net6.0\PracticeRecursion.exe
+D:\DSPS\semester3\Programming Advanced\PracticeRecursion\bin\Debug\net6.0\PracticeRecursion.deps.json
+D:\DSPS\semester3\Programming Advanced\PracticeRecursion\bin\Debug\net6.0\PracticeRecursion.runtimeconfig.json
+D:\DSPS\semester3\Programming Advanced\PracticeRecursion\bin\Debug\net6.0\PracticeRecursion.dll
+D:\DSPS\semester3\Programming Advanced\PracticeRecursion\bin\Debug\net6.0\PracticeRecursion.pdb
+D:\DSPS\semester3\Programming Advanced\PracticeRecursion\obj\Debug\net6.0\PracticeRecursion.csproj.AssemblyReference.cache
+D:\DSPS\semester3\Programming Advanced\PracticeRecursion\obj\Debug\net6.0\PracticeRecursion.GeneratedMSBuildEditorConfig.editorconfig
+D:\DSPS\semester3\Programming Advanced\PracticeRecursion\obj\Debug\net6.0\PracticeRecursion.AssemblyInfoInputs.cache
+D:\DSPS\semester3\Programming Advanced\PracticeRecursion\obj\Debug\net6.0\PracticeRecursion.AssemblyInfo.cs
+D:\DSPS\semester3\Programming Advanced\PracticeRecursion\obj\Debug\net6.0\PracticeRecursion.csproj.CoreCompileInputs.cache
+D:\DSPS\semester3\Programming Advanced\PracticeRecursion\obj\Debug\net6.0\PracticeRecursion.dll
+D:\DSPS\semester3\Programming Advanced\PracticeRecursion\obj\Debug\net6.0\refint\PracticeRecursion.dll
+D:\DSPS\semester3\Programming Advanced\PracticeRecursion\obj\Debug\net6.0\PracticeRecursion.pdb
+D:\DSPS\semester3\Programming Advanced\PracticeRecursion\obj\Debug\net6.0\PracticeRecursion.genruntimeconfig.cache
+D:\DSPS\semester3\Programming Advanced\PracticeRecursion\obj\Debug\net6.0\ref\PracticeRecursion.dll
