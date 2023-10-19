@@ -8,18 +8,34 @@ namespace Module_03
         {
             Playlist playlist = new Playlist();
 
-            string[] input = "song1 song2 song3 song4 song5".Split(" "); //Console.ReadLine();
+            string[] input = Console.ReadLine().Split(" ");
+            string[] sequenceOfOperations = Console.ReadLine().Split(" ");
+            string currentSong = Console.ReadLine();
+
             for (int i = 0; i < input.Length; i++)
             {
                 playlist.Add(input[i]);
             }
-            playlist.Remove("song2");
-            //Console.WriteLine(playlist.Next());
-            //Console.WriteLine(playlist.Next());
-            //Console.WriteLine(playlist.Next());
-            //Console.WriteLine(playlist.Next());
-            //Console.WriteLine(playlist.Next());
-            //Console.WriteLine(playlist.Next());
+            Console.Write(playlist.NowPlaying(currentSong) + " ");
+            for (int i = 0; i < sequenceOfOperations.Length; i++)
+            {
+                if (sequenceOfOperations[i] == "next")
+                {
+                    Console.Write(playlist.Next() + " ");
+                }
+                else if (sequenceOfOperations[i] == "previous")
+                {
+                    Console.Write(playlist.Previous() + " ");
+                }
+                else if (sequenceOfOperations[i].Contains("add:"))
+                {
+                    playlist.Add(sequenceOfOperations[i].Substring(4));
+                }
+                else if (sequenceOfOperations[i].Contains("remove:"))
+                {
+                    playlist.Remove(sequenceOfOperations[i].Substring(7));
+                }
+            }
         }
     }
 }
