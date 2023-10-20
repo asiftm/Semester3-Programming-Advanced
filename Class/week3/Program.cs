@@ -1,4 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System;
 
 namespace week3
 {
@@ -6,7 +6,7 @@ namespace week3
     {
         static void Main(string[] args)
         {
-            Linkedlist();
+            //Linkedlist();
             void Linkedlist()
             {
                 LinkedList linkedList = new LinkedList();
@@ -17,9 +17,9 @@ namespace week3
                 linkedList.Insert(new Node(6));
                 linkedList.Insert(new Node(3));
 
-                //linkedList.Delete(5);
-                //linkedList.Delete(1);
-                //linkedList.Delete(3);
+                linkedList.Delete(5);
+                linkedList.Delete(1);
+                linkedList.Delete(3);
 
                 Console.WriteLine(linkedList.Search(3));
                 Console.WriteLine(linkedList.Search(5));
