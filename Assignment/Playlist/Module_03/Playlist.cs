@@ -5,6 +5,18 @@ using System.Threading.Tasks;
 
 namespace Module_03
 {
+    class Node
+    {
+        public string Data { get; set; }
+        public Node PreviousNode { get; set; }
+        public Node NextNode { get; set; }
+        public Node(string nodeData)
+        {
+            Data = nodeData;
+            PreviousNode = null;
+            NextNode = null;
+        }
+    }
     class Playlist
     {
         public Node CurrentNode { get; set; }
@@ -15,10 +27,6 @@ namespace Module_03
             CurrentNode = null;
             Head = null;
             Tail = null;
-        }
-        public Playlist(Node node)
-        {
-            CurrentNode = node;
         }
         public void Add(string song)
         {
@@ -78,26 +86,37 @@ namespace Module_03
         }
         public string NowPlaying(string song)
         {
+            if (Head.Data == song) return CurrentNode.Data;
+            else if (Tail.Data == song)
+            {
+                CurrentNode = Tail;
+                return CurrentNode.Data;
+            }
+
             Node temp = CurrentNode;
-            while (temp.NextNode != null)
+            for (Node i = Head; i != Tail; i = i.NextNode)
             {
                 if (temp.NextNode.Data == song)
                 {
                     CurrentNode = temp.NextNode;
                     return CurrentNode.Data;
                 }
-
                 temp = temp.NextNode;
             }
-            return "crazy input";
+            CurrentNode = Tail;
+            return "Not found";
         }
         public string Next()
         {
+            if(CurrentNode == null) return "empty";
+
             CurrentNode = CurrentNode.NextNode;
             return CurrentNode.Data;
         }
         public string Previous()
         {
+            if (CurrentNode == null) return "empty";
+
             CurrentNode = CurrentNode.PreviousNode;
             return CurrentNode.Data;
         }
