@@ -30,7 +30,6 @@ namespace Module_05
             if(row == size && col == 0)
             {
                 if (IsMagic()) return "solution :\n" + ToString();
-                Console.WriteLine(ToString());
                 return "";
             }
             for (int i = 1; i < (size*size)+1; i++)

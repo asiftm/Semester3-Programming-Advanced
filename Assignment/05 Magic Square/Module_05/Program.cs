@@ -5,9 +5,19 @@ namespace Module_05
     {
         static void Main(string[] args)
         {
-            MagicSquare magicSquare = new MagicSquare(4);
-            string output = magicSquare.Create();
-            Console.WriteLine(output);
+            try
+            {
+                int input = Convert.ToInt32(Console.ReadLine());
+
+                MagicSquare magicSquare = new MagicSquare(input);
+                string output = magicSquare.Create();
+                Console.WriteLine(output.Replace("solution :\n", ""));
+            }
+            catch
+            {
+                Console.WriteLine("Crazy input!");
+            }
+
         }
     }
 }
