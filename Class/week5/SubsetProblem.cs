@@ -8,15 +8,22 @@ namespace week5
 {
     class SubsetProblem
     {
-        public void Solve(int[] array, List<List<int>> result, List<int> subset, int index = 0)
-        {
-            result.Add(new List<int>(subset)); //otherwise adding reference
+        /*
+            Start with empty subset and add to result list.
+            iterate through the elements of input:
+            Include current element in the subset.
+            Recursively call yourself with the updated subset and the next index.
+            Exclude the current element from the subset (backtrack)
+         */
 
-            for (int i = 0; i < array.Length; i++)
+        public void Solve(int[] array, List<List<int>> results, List<int> sublist, int index = 0)
+        {
+            results.Add(new List<int>(sublist)); //otherwise adding reference
+            for (int i = index; i < array.Length; i++)
             {
-                subset.Add(array[i]);
-                Solve(array, result, subset, i + 1);
-                subset.RemoveAt(subset.Count-1);
+                sublist.Add(array[i]);
+                Solve(array, results, sublist, i + 1);
+                sublist.RemoveAt(sublist.Count - 1);
             }
         }
         public List<List<int>> SolveBinary(int[] array)

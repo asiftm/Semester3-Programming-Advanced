@@ -1,0 +1,15 @@
+D:\DSPS\semester3\Programming Advanced\Class\week6 Divide&Rule\Divide&Rule\obj\Debug\net6.0\Divide&Rule.csproj.AssemblyReference.cache
+D:\DSPS\semester3\Programming Advanced\Class\week6 Divide&Rule\Divide&Rule\obj\Debug\net6.0\Divide&Rule.GeneratedMSBuildEditorConfig.editorconfig
+D:\DSPS\semester3\Programming Advanced\Class\week6 Divide&Rule\Divide&Rule\obj\Debug\net6.0\Divide&Rule.AssemblyInfoInputs.cache
+D:\DSPS\semester3\Programming Advanced\Class\week6 Divide&Rule\Divide&Rule\obj\Debug\net6.0\Divide&Rule.AssemblyInfo.cs
+D:\DSPS\semester3\Programming Advanced\Class\week6 Divide&Rule\Divide&Rule\obj\Debug\net6.0\Divide&Rule.csproj.CoreCompileInputs.cache
+D:\DSPS\semester3\Programming Advanced\Class\week6 Divide&Rule\Divide&Rule\bin\Debug\net6.0\Divide&Rule.exe
+D:\DSPS\semester3\Programming Advanced\Class\week6 Divide&Rule\Divide&Rule\bin\Debug\net6.0\Divide&Rule.deps.json
+D:\DSPS\semester3\Programming Advanced\Class\week6 Divide&Rule\Divide&Rule\bin\Debug\net6.0\Divide&Rule.runtimeconfig.json
+D:\DSPS\semester3\Programming Advanced\Class\week6 Divide&Rule\Divide&Rule\bin\Debug\net6.0\Divide&Rule.dll
+D:\DSPS\semester3\Programming Advanced\Class\week6 Divide&Rule\Divide&Rule\bin\Debug\net6.0\Divide&Rule.pdb
+D:\DSPS\semester3\Programming Advanced\Class\week6 Divide&Rule\Divide&Rule\obj\Debug\net6.0\Divide&Rule.dll
+D:\DSPS\semester3\Programming Advanced\Class\week6 Divide&Rule\Divide&Rule\obj\Debug\net6.0\refint\Divide&Rule.dll
+D:\DSPS\semester3\Programming Advanced\Class\week6 Divide&Rule\Divide&Rule\obj\Debug\net6.0\Divide&Rule.pdb
+D:\DSPS\semester3\Programming Advanced\Class\week6 Divide&Rule\Divide&Rule\obj\Debug\net6.0\Divide&Rule.genruntimeconfig.cache
+D:\DSPS\semester3\Programming Advanced\Class\week6 Divide&Rule\Divide&Rule\obj\Debug\net6.0\ref\Divide&Rule.dll

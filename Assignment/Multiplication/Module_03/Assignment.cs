@@ -9,8 +9,16 @@ namespace Module_03
     {
         public int Multiplication(int a, int b)
         {
-            if (b < 1) return 0;
-            return (a + (Multiplication(a, b-1)));
+            if (b > 0)
+            {
+                if (b < 1) return 0;
+                return (a + (Multiplication(a, b - 1)));
+            }
+            else
+            {
+                if(b > -1) return 0;
+                return ( - a + (Multiplication(a, b + 1)));
+            }
         }
     }
 }

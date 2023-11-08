@@ -30,6 +30,7 @@ namespace week5
 
             for (int i = 0; i < n; i++)
             {
+                Console.Write("new attempt\n");
                 Console.WriteLine(ToString());
                 if (IsSafe(i, col))
                 {
