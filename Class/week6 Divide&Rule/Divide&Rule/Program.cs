@@ -24,7 +24,7 @@
             Console.WriteLine(String.Join(" ", array));
 
             Hanoi hanoi = new Hanoi();
-            //hanoi.SolveHanoi(2, 'A', 'C', 'B');
+            hanoi.SolveHanoi(2, 'A', 'C', 'B');
 
         }
     }
