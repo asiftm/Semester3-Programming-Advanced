@@ -29,6 +29,7 @@ namespace Module_05
         {
             if(row == size && col == 0)
             {
+                Console.WriteLine(ToString());
                 if (IsMagic()) return "solution :\n" + ToString();
                 return "";
             }

@@ -8,6 +8,7 @@ namespace week5
 {
     class SubsetProblem
     {
+        int a;
         /*
             Start with empty subset and add to result list.
             iterate through the elements of input:
@@ -22,7 +23,9 @@ namespace week5
             for (int i = index; i < array.Length; i++)
             {
                 sublist.Add(array[i]);
+                Console.WriteLine($"step into {++a}");
                 Solve(array, results, sublist, i + 1);
+                Console.WriteLine($"back to {--a}");
                 sublist.RemoveAt(sublist.Count - 1);
             }
         }
@@ -45,3 +48,5 @@ namespace week5
         }
     }
 }
+
+

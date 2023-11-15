@@ -8,7 +8,7 @@ namespace Divide_Rule
 {
     internal class QuickSort
     {
-        public List<int> Sort(List<int> list)
+        public List<int> SortWithLists(List<int> list)
         {
             if(list.Count <= 1) return list;
 
@@ -22,7 +22,7 @@ namespace Divide_Rule
                 if (i < pivot) smaller.Add(i);
                 else if (i > pivot) grater.Add(i);
             }
-            return Sort(smaller).Union(new List<int> { pivot }).Union(Sort(grater)).ToList<int>();
+            return SortWithLists(smaller).Union(new List<int> { pivot }).Union(SortWithLists(grater)).ToList<int>();
         }
         public void Sort(int[] array, int low, int high)
         {

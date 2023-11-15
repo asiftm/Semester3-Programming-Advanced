@@ -16,7 +16,7 @@
 
             List<int> unsortedList = new List<int>() { 10, 5, 9 ,7 ,4 ,8, 2, 6, 1, 3};
             QuickSort quickSort = new QuickSort();
-            List<int> sortedList = quickSort.Sort(unsortedList);
+            List<int> sortedList = quickSort.SortWithLists(unsortedList);
             Console.WriteLine(string.Join(" ",sortedList));
 
             int[] array = new int[] { 2, 7, 9, 1, 10, 8, 14, 21, 4, 5, 18, 19 };
@@ -24,7 +24,7 @@
             Console.WriteLine(String.Join(" ", array));
 
             Hanoi hanoi = new Hanoi();
-            hanoi.SolveHanoi(2, 'A', 'C', 'B');
+            //hanoi.SolveHanoi(2, 'A', 'C', 'B');
 
         }
     }
