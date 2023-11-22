@@ -1,0 +1,15 @@
+D:\DSPS\semester3\Programming Advanced\Class\Week8_Graphs\bin\Debug\net6.0\Week8_Graphs.exe
+D:\DSPS\semester3\Programming Advanced\Class\Week8_Graphs\bin\Debug\net6.0\Week8_Graphs.deps.json
+D:\DSPS\semester3\Programming Advanced\Class\Week8_Graphs\bin\Debug\net6.0\Week8_Graphs.runtimeconfig.json
+D:\DSPS\semester3\Programming Advanced\Class\Week8_Graphs\bin\Debug\net6.0\Week8_Graphs.dll
+D:\DSPS\semester3\Programming Advanced\Class\Week8_Graphs\bin\Debug\net6.0\Week8_Graphs.pdb
+D:\DSPS\semester3\Programming Advanced\Class\Week8_Graphs\obj\Debug\net6.0\Week8_Graphs.csproj.AssemblyReference.cache
+D:\DSPS\semester3\Programming Advanced\Class\Week8_Graphs\obj\Debug\net6.0\Week8_Graphs.GeneratedMSBuildEditorConfig.editorconfig
+D:\DSPS\semester3\Programming Advanced\Class\Week8_Graphs\obj\Debug\net6.0\Week8_Graphs.AssemblyInfoInputs.cache
+D:\DSPS\semester3\Programming Advanced\Class\Week8_Graphs\obj\Debug\net6.0\Week8_Graphs.AssemblyInfo.cs
+D:\DSPS\semester3\Programming Advanced\Class\Week8_Graphs\obj\Debug\net6.0\Week8_Graphs.csproj.CoreCompileInputs.cache
+D:\DSPS\semester3\Programming Advanced\Class\Week8_Graphs\obj\Debug\net6.0\Week8_Graphs.dll
+D:\DSPS\semester3\Programming Advanced\Class\Week8_Graphs\obj\Debug\net6.0\refint\Week8_Graphs.dll
+D:\DSPS\semester3\Programming Advanced\Class\Week8_Graphs\obj\Debug\net6.0\Week8_Graphs.pdb
+D:\DSPS\semester3\Programming Advanced\Class\Week8_Graphs\obj\Debug\net6.0\Week8_Graphs.genruntimeconfig.cache
+D:\DSPS\semester3\Programming Advanced\Class\Week8_Graphs\obj\Debug\net6.0\ref\Week8_Graphs.dll

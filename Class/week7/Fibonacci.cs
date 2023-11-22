@@ -8,58 +8,71 @@ namespace week7
 {
     class Fibonacci
     {
-        public int Recursion(int a)
+
+        public int Recursion(int n)
         {
-            if (a < 0) throw new ArgumentException("Crazy input!");
-            if(a == 0) return 0;
-            if(a == 1) return 1;
+            Console.Write("call n = " + n + " ");
 
-            return Recursion(a - 1) + Recursion(a-2);
+            if (n < 0) throw new Exception("Crazy input!");
+
+            if (n == 0) return 0;
+            if (n == 1) return 1;
+
+            return Recursion(n - 1) + Recursion(n - 2);
         }
-        public int Memorization(int n, int[] memorization)
+
+        public int Memoization(int n, int[] memoization)
         {
-            if (n < 0) throw new ArgumentException("Crazy input!");
+            Console.Write("call n = " + n + " ");
 
-            if(n == 0) return 0;
-            if(n == 1) return 1;
+            if (n < 0) throw new Exception("Crazy input!");
 
-            if (memorization[n] != 0) return memorization[n];
+            if (n == 0) return 0;
+            if (n == 1) return 1;
+            if (memoization[n] != 0) return memoization[n];
 
-            memorization[n] = Memorization(n - 1, memorization) + Memorization(n-2, memorization);
-
-            return memorization[n];
+            memoization[n] = Memoization(n - 1, memoization) + Memoization(n - 2, memoization);
+            return memoization[n];
         }
+
         public int Tabulation(int n)
         {
-            if (n < 0) throw new Exception("Crazy input");
 
+            if (n < 0) throw new Exception("Crazy input!");
+
+            //build the table
             int[] tabulation = new int[n + 1];
 
             tabulation[0] = 0;
             tabulation[1] = 1;
 
-            for (int i = 2; i <= n ; i++)
+            for (int i = 2; i <= n; i++)
             {
-                tabulation[i] = tabulation[i-1] + tabulation[i-2];
+                Console.Write("call n = " + i + " ");
+                tabulation[i] = tabulation[i - 1] + tabulation[i - 2];
             }
             return tabulation[n];
         }
+
+
         public int Iterative(int n)
         {
-            if (n < 0) throw new Exception("Crazy input");
+            if (n < 0) throw new Exception("Crazy input!");
 
             int fib0 = 0;
             int fib1 = 1;
 
             int fib = 0;
-
-            for (int i = 2; i <= n ; i++)
+            for (int i = 2; i <= n; i++)
             {
+                Console.Write("call n = " + i + " ");
+
                 fib = fib0 + fib1;
                 fib0 = fib1;
                 fib1 = fib;
             }
             return fib;
+
         }
 
     }

@@ -13,7 +13,7 @@ namespace Divide_Rule
             if (number == 1) Console.WriteLine($"{number}: {from} to {to}");
             else
             {
-                SolveHanoi(number - 1, from, to, other);
+                SolveHanoi(number - 1, from, other, to);
                 Console.WriteLine($"{number}: {from} to {to}");
                 SolveHanoi(number - 1, other, to, from);
             }
