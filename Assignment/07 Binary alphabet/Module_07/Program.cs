@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.PortableExecutable;
-using System.Text;
-using System.Threading.Tasks;
 namespace Module_07
 {
     internal class Program
@@ -12,15 +7,18 @@ namespace Module_07
         {
             try
             {
+                int input = Convert.ToInt16(Console.ReadLine());
+
+                if (input < 0) throw new Exception();
+
                 Assignment assignment = new Assignment();
 
-                Console.WriteLine(assignment.Sequence(Convert.ToInt16(Console.ReadLine())));
+                Console.WriteLine(assignment.Sequence(input));
             }
             catch (Exception)
             {
-                Console.WriteLine("Crazy input");
+                Console.WriteLine("Crazy input!");
             }
-            
         }
     }
 }

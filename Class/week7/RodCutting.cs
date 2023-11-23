@@ -51,7 +51,7 @@ namespace week7
 
         public int Tabulation(int n)
         {
-            if (n <= 0) return Prices[0]; //or r or 0
+            if (n <= 0) return Prices[0]; //or 0
 
             int[] tabulation = new int[n + 1];
             tabulation[0] = 0;

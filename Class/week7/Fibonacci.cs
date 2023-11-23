@@ -37,7 +37,6 @@ namespace week7
 
         public int Tabulation(int n)
         {
-
             if (n < 0) throw new Exception("Crazy input!");
 
             //build the table
@@ -50,6 +49,7 @@ namespace week7
             {
                 Console.Write("call n = " + i + " ");
                 tabulation[i] = tabulation[i - 1] + tabulation[i - 2];
+                Console.WriteLine(tabulation[i]);
             }
             return tabulation[n];
         }
@@ -70,9 +70,9 @@ namespace week7
                 fib = fib0 + fib1;
                 fib0 = fib1;
                 fib1 = fib;
+                Console.WriteLine(fib);
             }
             return fib;
-
         }
 
     }
