@@ -1,0 +1,15 @@
+D:\DSPS\semester3\Programming Advanced\Class\week9\WeightedGraphs\bin\Debug\net6.0\WeightedGraphs.exe
+D:\DSPS\semester3\Programming Advanced\Class\week9\WeightedGraphs\bin\Debug\net6.0\WeightedGraphs.deps.json
+D:\DSPS\semester3\Programming Advanced\Class\week9\WeightedGraphs\bin\Debug\net6.0\WeightedGraphs.runtimeconfig.json
+D:\DSPS\semester3\Programming Advanced\Class\week9\WeightedGraphs\bin\Debug\net6.0\WeightedGraphs.dll
+D:\DSPS\semester3\Programming Advanced\Class\week9\WeightedGraphs\bin\Debug\net6.0\WeightedGraphs.pdb
+D:\DSPS\semester3\Programming Advanced\Class\week9\WeightedGraphs\obj\Debug\net6.0\WeightedGraphs.csproj.AssemblyReference.cache
+D:\DSPS\semester3\Programming Advanced\Class\week9\WeightedGraphs\obj\Debug\net6.0\WeightedGraphs.GeneratedMSBuildEditorConfig.editorconfig
+D:\DSPS\semester3\Programming Advanced\Class\week9\WeightedGraphs\obj\Debug\net6.0\WeightedGraphs.AssemblyInfoInputs.cache
+D:\DSPS\semester3\Programming Advanced\Class\week9\WeightedGraphs\obj\Debug\net6.0\WeightedGraphs.AssemblyInfo.cs
+D:\DSPS\semester3\Programming Advanced\Class\week9\WeightedGraphs\obj\Debug\net6.0\WeightedGraphs.csproj.CoreCompileInputs.cache
+D:\DSPS\semester3\Programming Advanced\Class\week9\WeightedGraphs\obj\Debug\net6.0\WeightedGraphs.dll
+D:\DSPS\semester3\Programming Advanced\Class\week9\WeightedGraphs\obj\Debug\net6.0\refint\WeightedGraphs.dll
+D:\DSPS\semester3\Programming Advanced\Class\week9\WeightedGraphs\obj\Debug\net6.0\WeightedGraphs.pdb
+D:\DSPS\semester3\Programming Advanced\Class\week9\WeightedGraphs\obj\Debug\net6.0\WeightedGraphs.genruntimeconfig.cache
+D:\DSPS\semester3\Programming Advanced\Class\week9\WeightedGraphs\obj\Debug\net6.0\ref\WeightedGraphs.dll
