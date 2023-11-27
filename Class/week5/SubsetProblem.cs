@@ -19,6 +19,7 @@ namespace week5
 
         public void Solve(int[] array, List<List<int>> results, List<int> sublist, int index = 0)
         {
+            Console.WriteLine(String.Join(" ",sublist));
             results.Add(new List<int>(sublist)); //otherwise adding reference
             for (int i = index; i < array.Length; i++)
             {

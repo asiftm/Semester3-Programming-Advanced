@@ -29,7 +29,7 @@
 
             Console.WriteLine(maze.ToString());
 
-            List<int> nodes = maze.DFS(12, null);
+            List<int> nodes = maze.DFS(12, null, 0);
             Console.WriteLine("DFS RECUSION:" + String.Join("--> ", nodes));
             Console.WriteLine("DFS STACK: " + maze.DFS(12,0));
             Console.WriteLine("BFS:" + maze.BFS(12, 0));

@@ -18,7 +18,7 @@
              * 
              */
 
-            int[] array = new int[] {7, 8, 9 };
+            int[] array = new int[] { 1,0,1,0};
 
             List<List<int>> result = new List<List<int>>(); //main list
             List<int> subset = new List<int>(); //small combinations

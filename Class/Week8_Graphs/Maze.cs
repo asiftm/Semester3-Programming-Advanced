@@ -53,23 +53,23 @@ namespace Week8_Graphs
             return visited;
         }
 
-        //public List<int> DFS(int start, List<int> visited, int stop)
-        //{
-        //    if (visited == null) visited = new List<int>();
-        //    visited.Add(start);
-        //    if (start == stop) return visited;
+        public List<int> DFS(int start, List<int> visited, int stop)
+        {
+            if (visited == null) visited = new List<int>();
+            visited.Add(start);
+            if (start == stop) return visited;
 
-        //    foreach (int node in graph[start])
-        //    {
-        //        if (!visited.Contains(node))
-        //        {
-        //            List<int> nodes = DFS(node, visited, stop);
-        //            if (nodes.Contains(stop)) return nodes;
+            foreach (int node in graph[start])
+            {
+                if (!visited.Contains(node))
+                {
+                    List<int> nodes = DFS(node, visited, stop);
+                    if (nodes.Contains(stop)) return nodes;
 
-        //        }
-        //    }
-        //    return visited;
-        //}
+                }
+            }
+            return visited;
+        }
 
         public string DFS(int start,int stop)
         {

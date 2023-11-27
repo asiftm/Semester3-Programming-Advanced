@@ -64,14 +64,9 @@ namespace Week9_WeightedGraphs
             string path = "";
             int node = 0;
 
-            while(node != start)
+            while (node != start)
             {
-                break;
-            }
-
-            for (int i = 0; i < nodes; i++)
-            {
-                Console.WriteLine("cost to node {i} --> {distences[i]}");
+                path += previous[node] + " ";
             }
         }
         private int GetNextNode(int[] distances, List<int> visited)
