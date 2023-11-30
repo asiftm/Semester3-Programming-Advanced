@@ -32,7 +32,7 @@ namespace week7
 
         public int Memoization(int n, int[] memoization)
         {
-            Console.Write("call with n " + n + " ");
+            //Console.WriteLine("call with n " + n + " ");
 
             int r = 0;
             if (n <= 0) return Prices[0]; //or r or 0
@@ -53,8 +53,8 @@ namespace week7
         {
             if (n <= 0) return Prices[0]; //or 0
 
-            int[] tabulation = new int[n + 1];
-            tabulation[0] = 0;
+            int[] bestPrice = new int[n + 1];
+            bestPrice[0] = 0;
 
             for (int i = 1; i <= n; i++)
             {
@@ -62,12 +62,12 @@ namespace week7
 
                 for (int j = 0; j <= i; j++)
                 {
-                    r = Math.Max(r, Prices[j] + tabulation[i - j]);
-                    tabulation[i] = r;
+                    r = Math.Max(r, Prices[j] + bestPrice[i - j]);
+                    bestPrice[i] = r;
 
                 }
             }
-            return tabulation[n];
+            return bestPrice[n];
         }
     }
 }

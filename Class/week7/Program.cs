@@ -17,9 +17,9 @@
             int[] array = new int[] { 0, 1, 5, 8, 9, 10, 17, 17, 20, 24, 30 };
             RodCutting rodCutting = new RodCutting(array);
 
-            //Console.WriteLine(rodCutting.Recursion(4));
+            Console.WriteLine(rodCutting.Recursion(4));
             //Console.WriteLine(rodCutting.Memoization(4, new int[5]));
-            Console.WriteLine(rodCutting.Tabulation(4));
+            //Console.WriteLine(rodCutting.Tabulation(4));
         }
     }
 }

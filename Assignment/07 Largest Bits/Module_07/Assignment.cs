@@ -20,6 +20,7 @@ namespace Module_07
                 temp += binary[i];
                 if(Convert.ToInt64(temp) > Largest && Convert.ToInt64(temp) != Convert.ToInt64(BinaryInput) && isPalindrome(temp)) Largest = (int)Convert.ToInt64(temp);
             }
+            //Console.WriteLine(binary);
             return LargestBits(binary.Substring(1));
         }
 
