@@ -1,35 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Week9_WeightedGraphs;
 
-namespace Week9_WeightedGraphs
+namespace DSPS
 {
     class Maze
     {
         int nodes;
         List<int>[] graph;
+
         public Maze(int nodes)
         {
             this.nodes = nodes;
-            graph = new List<int>[nodes]; //create graph with nr of nodes
+            graph = new List<int>[nodes];   //create graph with nr of nodes
             for (int i = 0; i < nodes; i++) //init all lists
             {
                 graph[i] = new List<int>();
             }
         }
+
         public void AddEdge(int node1, int node2)
         {
-            //to make it better, check if a node already is in the list. not going out of bounds
+            //maze.AddEdge(0, 1);
+            //to make it better, check if a node already is in the list, not going out of bounds
             graph[node1].Add(node2);
             graph[node2].Add(node1);
         }
-        public void Dijkstra(int start, int end)
+
+        public void Dijkstra(int start)
         {
             int[] distances = new int[nodes];
-
-            for (int i = 0;i < nodes;i++)
+            for (int i = 0; i < nodes; i++)
             {
                 distances[i] = Int32.MaxValue;
             }
@@ -39,36 +38,40 @@ namespace Week9_WeightedGraphs
             List<int> visited = new List<int>();
 
             distances[start] = 0;
-
             while (true)
             {
                 int next = GetNextNode(distances, visited);
 
-                if (next == -1 || next == end) break;
+                if (next == 0) break;
+
+                if (next == -1) break;
 
                 visited.Add(next);
 
+                // for each neighbor ​calculate the cost and update if lower
                 foreach (int neighbour in graph[next])
                 {
                     int cost = distances[next] + Math.Abs(neighbour - next);
-
-                    if (cost < distances[neighbour])
+                    if (distances[neighbour] > cost)
                     {
                         distances[neighbour] = cost;
                         previous[neighbour] = next;
                     }
+
                 }
             }
-            Console.WriteLine(string.Join("  ",distances));
 
             string path = "";
             int node = 0;
-
             while (node != start)
             {
-                path += previous[node] + " ";
+                path = previous[node] + " " + path;
+                node = previous[node];
             }
+
+            Console.WriteLine(path);
         }
+
         private int GetNextNode(int[] distances, List<int> visited)
         {
             int next = -1;
@@ -84,6 +87,7 @@ namespace Week9_WeightedGraphs
             }
             return next;
         }
+
         public override string ToString()
         {
             string s = "";

@@ -26,6 +26,7 @@
             maze.AddEdge(15, 10);
             maze.AddEdge(10, 5);
             maze.AddEdge(5, 0);
+            maze.AddEdge(12, 0);
 
             Console.WriteLine(maze.ToString());
 

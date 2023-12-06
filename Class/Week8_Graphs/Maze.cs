@@ -25,8 +25,8 @@ namespace Week8_Graphs
         {
             //maze.AddEdge(0, 1);
             //to make it better, check if a node already is in the list, not going out of bounds
-            graph[node1].Add(node2);
-            graph[node2].Add(node1);
+            if (!graph[node1].Contains(node2)) graph[node1].Add(node2);
+            if (!graph[node2].Contains(node1)) graph[node2].Add(node1);
         }
 
         public override string ToString()
@@ -65,7 +65,6 @@ namespace Week8_Graphs
                 {
                     List<int> nodes = DFS(node, visited, stop);
                     if (nodes.Contains(stop)) return nodes;
-
                 }
             }
             return visited;
@@ -110,12 +109,13 @@ namespace Week8_Graphs
 
                 foreach (int neighbour in graph[node])
                 {
+                    
                     if (!visited.Contains(neighbour))
                     {
                         queue.Enqueue(neighbour);
                         visited.Add(neighbour);
-                        if (node == stop) return String.Join("--> ", visited);
-
+                        if (neighbour == stop) return String.Join("--> ", visited);
+                        
                     }
                 }
             }

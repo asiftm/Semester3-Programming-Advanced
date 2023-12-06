@@ -1,4 +1,6 @@
-﻿namespace Week9_WeightedGraphs
+﻿using DSPS;
+
+namespace Week9_WeightedGraphs
 {
     internal class Program
     {
@@ -19,6 +21,7 @@
             maze.AddEdge(24, 23);
             maze.AddEdge(18, 23);
             maze.AddEdge(22, 23);
+            maze.AddEdge(17, 22);
             maze.AddEdge(17, 12);
             maze.AddEdge(21, 22);
             maze.AddEdge(21, 20);
@@ -27,9 +30,8 @@
             maze.AddEdge(10, 5);
             maze.AddEdge(5, 0);
 
-            maze.Dijkstra(12,0);
-
-            Console.WriteLine(maze);
+            Console.WriteLine(maze.ToString());
+            maze.Dijkstra(12);
         }
     }
 }
