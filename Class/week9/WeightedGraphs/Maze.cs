@@ -25,7 +25,7 @@ namespace DSPS
             graph[node2].Add(node1);
         }
 
-        public void Dijkstra(int start)
+        public void Dijkstra(int start,int end)
         {
             int[] distances = new int[nodes];
             for (int i = 0; i < nodes; i++)
@@ -42,7 +42,7 @@ namespace DSPS
             {
                 int next = GetNextNode(distances, visited);
 
-                if (next == 0) break;
+                if (next == end) break;
 
                 if (next == -1) break;
 
@@ -62,7 +62,7 @@ namespace DSPS
             }
 
             string path = "";
-            int node = 0;
+            int node = end;
             while (node != start)
             {
                 path = previous[node] + " " + path;

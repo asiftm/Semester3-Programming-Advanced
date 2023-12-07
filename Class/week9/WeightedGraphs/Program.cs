@@ -31,7 +31,7 @@ namespace Week9_WeightedGraphs
             maze.AddEdge(5, 0);
 
             Console.WriteLine(maze.ToString());
-            maze.Dijkstra(12);
+            maze.Dijkstra(12,3);
         }
     }
 }
