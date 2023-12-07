@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -37,7 +36,7 @@ namespace Module_09
                 Edges[node1][node2] = edge;
             }
         }
-        public void Dijkstra(int start)
+        public int Dijkstra(int start)
         {
             int[] distances = new int[Nodes];
             for (int i = 0; i < Nodes; i++)
@@ -54,7 +53,6 @@ namespace Module_09
             {
                 int currentNode = GetCurrentNode(distances,visited);
 
-                //if (currentNode == end) break;
                 if (currentNode == -1) break;
 
                 visited.Add(currentNode);
@@ -62,6 +60,11 @@ namespace Module_09
                 foreach (int neighbor in Graph[currentNode])
                 {
                     int distance = distances[currentNode] + Math.Abs(Edges[currentNode][neighbor]);
+
+                    if (visited.Contains(neighbor) && distance > distances[neighbor])
+                    {
+                        visited.Remove(neighbor);
+                    }
 
                     if (distance > distances[neighbor])
                     {
@@ -77,15 +80,13 @@ namespace Module_09
             }
 
             int longestPath = 0;
-            string path = "";
-            int node = visited.Last();
+            int node = Nodes-1;
             while(node != start)
             {
-                path = previous[node] + " " + path;
                 longestPath += Edges[previous[node]][node];
                 node = previous[node];
             }
-            Console.WriteLine($" start at {start}, the path is {path} and the longest path is {longestPath}");
+            return longestPath;
         }
         public int GetCurrentNode(int[] distances, List<int> visited)
         {
