@@ -7,7 +7,7 @@ namespace Practice_Dijkstra
 {
     class Maze
     {
-        int nodes;
+        int nodes; //count nodes
         List<int>[] graph;
         Dictionary<int, int>[] Edges;
         
@@ -37,7 +37,6 @@ namespace Practice_Dijkstra
                 graph[node1].Add(node2);
                 Edges[node1][node2] = edge; 
             }
-
         }
         public void Dijkstra(int start, int end)
         {
@@ -106,7 +105,6 @@ namespace Practice_Dijkstra
                 }
             }
             return next;
-
         }
         public override string ToString()
         {
@@ -119,3 +117,6 @@ namespace Practice_Dijkstra
         }
     }
 }
+
+
+

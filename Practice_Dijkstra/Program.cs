@@ -31,8 +31,8 @@ namespace Practice_Dijkstra
             //maze.AddEdge(5, 3);
             maze.AddEdge(5, 2, 1);
 
-            Console.WriteLine(maze.ToString());
-            maze.Dijkstra(0,4);
+            //Console.WriteLine(maze.ToString());
+            //maze.Dijkstra(0,4);
         }
     }
 }
