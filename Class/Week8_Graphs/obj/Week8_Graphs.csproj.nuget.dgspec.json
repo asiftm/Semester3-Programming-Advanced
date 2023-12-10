@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DSPS\\semester3\\Programming Advanced\\Class\\Week8_Graphs\\Week8_Graphs.csproj": {}
+    "D:\\DSPS\\semester3\\Programming Advanced\\Class\\week8_Graphs\\Week8_Graphs.csproj": {}
   },
   "projects": {
-    "D:\\DSPS\\semester3\\Programming Advanced\\Class\\Week8_Graphs\\Week8_Graphs.csproj": {
+    "D:\\DSPS\\semester3\\Programming Advanced\\Class\\week8_Graphs\\Week8_Graphs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DSPS\\semester3\\Programming Advanced\\Class\\Week8_Graphs\\Week8_Graphs.csproj",
+        "projectUniqueName": "D:\\DSPS\\semester3\\Programming Advanced\\Class\\week8_Graphs\\Week8_Graphs.csproj",
         "projectName": "Week8_Graphs",
-        "projectPath": "D:\\DSPS\\semester3\\Programming Advanced\\Class\\Week8_Graphs\\Week8_Graphs.csproj",
+        "projectPath": "D:\\DSPS\\semester3\\Programming Advanced\\Class\\week8_Graphs\\Week8_Graphs.csproj",
         "packagesPath": "C:\\Users\\asifm\\.nuget\\packages\\",
-        "outputPath": "D:\\DSPS\\semester3\\Programming Advanced\\Class\\Week8_Graphs\\obj\\",
+        "outputPath": "D:\\DSPS\\semester3\\Programming Advanced\\Class\\week8_Graphs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asifm\\AppData\\Roaming\\NuGet\\NuGet.Config",

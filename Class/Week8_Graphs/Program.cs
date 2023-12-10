@@ -30,8 +30,12 @@
 
             Console.WriteLine(maze.ToString());
 
+            List<int> nodes_all = maze.DFSwithoutStop(12, null);
+            Console.WriteLine("DFS RECUSION WITHOUT STOP:" + String.Join("--> ", nodes_all));
+
             List<int> nodes = maze.DFS(12, null, 0);
             Console.WriteLine("DFS RECUSION:" + String.Join("--> ", nodes));
+
             Console.WriteLine("DFS STACK: " + maze.DFS(12,0));
             Console.WriteLine("BFS:" + maze.BFS(12, 0));
 
