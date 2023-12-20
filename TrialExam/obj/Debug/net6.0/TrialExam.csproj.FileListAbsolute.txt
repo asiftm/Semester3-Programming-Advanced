@@ -1,0 +1,15 @@
+D:\DSPS\semester3\Programming Advanced\TrialExam\bin\Debug\net6.0\TrialExam.exe
+D:\DSPS\semester3\Programming Advanced\TrialExam\bin\Debug\net6.0\TrialExam.deps.json
+D:\DSPS\semester3\Programming Advanced\TrialExam\bin\Debug\net6.0\TrialExam.runtimeconfig.json
+D:\DSPS\semester3\Programming Advanced\TrialExam\bin\Debug\net6.0\TrialExam.dll
+D:\DSPS\semester3\Programming Advanced\TrialExam\bin\Debug\net6.0\TrialExam.pdb
+D:\DSPS\semester3\Programming Advanced\TrialExam\obj\Debug\net6.0\TrialExam.csproj.AssemblyReference.cache
+D:\DSPS\semester3\Programming Advanced\TrialExam\obj\Debug\net6.0\TrialExam.GeneratedMSBuildEditorConfig.editorconfig
+D:\DSPS\semester3\Programming Advanced\TrialExam\obj\Debug\net6.0\TrialExam.AssemblyInfoInputs.cache
+D:\DSPS\semester3\Programming Advanced\TrialExam\obj\Debug\net6.0\TrialExam.AssemblyInfo.cs
+D:\DSPS\semester3\Programming Advanced\TrialExam\obj\Debug\net6.0\TrialExam.csproj.CoreCompileInputs.cache
+D:\DSPS\semester3\Programming Advanced\TrialExam\obj\Debug\net6.0\TrialExam.dll
+D:\DSPS\semester3\Programming Advanced\TrialExam\obj\Debug\net6.0\refint\TrialExam.dll
+D:\DSPS\semester3\Programming Advanced\TrialExam\obj\Debug\net6.0\TrialExam.pdb
+D:\DSPS\semester3\Programming Advanced\TrialExam\obj\Debug\net6.0\TrialExam.genruntimeconfig.cache
+D:\DSPS\semester3\Programming Advanced\TrialExam\obj\Debug\net6.0\ref\TrialExam.dll
